@@ -1,4 +1,96 @@
+body, html {
+  padding: 0;
+  margin: 0 !important;
+  font-family: 'Roboto', sans-serif;
+}
 .App {
   font-family: sans-serif;
   /* text-align: center; */
+}
+.container {
+  filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.5))
+}
+.header {
+  padding: 50px 20px;
+
+  color: white;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+}
+.play-button {
+  max-width: 160px;
+}
+.play-button img {
+  border-radius: 80px;
+  /* position: absolute; */
+  width: 160px;
+  box-shadow: 0px 0px 25px black;
+}
+
+.play-button, .change-button {
+  cursor: pointer;
+  padding: 5px;
+  text-shadow: 0px 0px 10px black;
+}
+.play-button .container {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  background-size: 100%;
+  border-radius: 80px;
+}
+.play-button .container  .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.play-button .container  .button  i {
+  font-size: 55px;
+}
+.fa-play {
+  color: white;
+}
+.fa-circle {
+  color: black;
+}
+.change-button {
+  font-size: 35px;
+  margin-top: 60px;
+}
+.change-button i {
+}
+.clear {
+  clear: both;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.player-body {
+  padding: 10px 20px 100px 20px;
+  color: white;
+}
+.album {
+  font-weight: 900;
+  font-size: 22px;
+}
+.button-container {
+  overflow: hidden;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+/* -------- */
+.dark-bg {
+  /* background-color: gray;
+   */
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+0,808084+0,000000+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #1e5799 0%, #207cca 0%, #808084 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #1e5799 0%,#207cca 0%,#808084 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #1e5799 0%,#207cca 0%,#808084 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }

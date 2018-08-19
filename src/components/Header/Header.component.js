@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 
 export default class Header extends Component {
   render() {
-    console.log("this", this.props);
     return (
-      <div>
-        <h3>{this.props.title}</h3>
-        <span>{this.props.album}</span>
+      <div className="container">
+      <div className="header" style={{background: '#' + this.props.color}}>
+        <h2>{this.props.title}</h2>
+        <div>{this.props.artist}</div> 
+        <div>({this.props.play ? 'Playing...' : 'Paused...'})</div>
+      </div>
       </div>
     )
   }

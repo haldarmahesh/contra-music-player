@@ -1,18 +1,24 @@
 {
     "songs": [{
-        "title": "Girls like you",
-        "album": "Maroon 5 Featuring Cardi B",
-        "img": "",
-        "color": ""
+        "title": "Tonight (I'm Lovin' You) ",
+        "artist": "Enrique Iglesias",
+        "album": "Euphoria",
+        "thumbnail": "https://api.ning.com/files/o8on0oz3Q2scaYH9L9VOx-7*DY9rJ5HKh9K1JhKv*Uj77lAbwe7s0b6enqNhjq6Cb54Ax8Y3n0YJjVUfXe95EPslQaX3cA*c/enriquewow.jpg",
+        "color": "2f1062",
+        "totalTime": "05:57"
     }, {
-        "title": "I like it",
-        "album": "Cardi B, Bad Bunny & J Balvin",
-        "img": "",
-        "color": ""
+        "title": "Come & Get It",
+        "artist": "Selena Gomez",
+        "album": "Stars Dance",
+        "thumbnail": "https://orig00.deviantart.net/d972/f/2013/086/d/0/selena_gomez___come_and_get_it_by_juaanr-d5zi25e.png",
+        "color": "e2544e",
+        "totalTime": "04:56"
     }, {
-        "title": "Sicko Mode",
-        "album": "Travis Scott",
-        "img": "",
-        "color": ""
+        "title": "This Love",
+        "artist": "Maroon 5",
+        "album": "Songs About Jane",
+        "thumbnail": "https://flinterfiles.files.wordpress.com/2015/06/this-love-by-maroon-5.jpg",
+        "color": "274e46",
+        "totalTime": "03:23"
     }]
 }
